@@ -1,0 +1,15 @@
+[general]
+import = [
+  "~/.config/alacritty/fonts/jetbrains-mono-nf.toml",
+]
+
+[terminal.shell]
+program = "tmux"
+args = ["new", "-A", "-D", "-s", "\uf46d home"]
+
+[window]
+dimensions = { columns = 96, lines = 32 }
+padding = { x = 5, y = 5 }
+opacity = 0.8
+decorations_theme_variant = "Dark"
+decorations = "None"
